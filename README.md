@@ -1,14 +1,16 @@
+# Foodie Calorie Finder
 
-This project, Calorie Finder, is a web-based application that allows users to find the calorie content of various foods.
+This project, **Foodie Calorie Finder**, is a web-based application that allows users to find the calorie content of various foods.
 
-Features
-Search for food items to retrieve their calorie content.
-Simple, user-friendly interface.
-Database-driven backend to store food information.
-Built using Django (Python web framework).
-Project Structure
-php
-Copy code
+## Features
+
+- Search for food items to retrieve their calorie content.
+- Simple, user-friendly interface.
+- Database-driven backend to store food information.
+- Built using Django (Python web framework).
+
+## Project Structure
+
 Foodie-calorie-finder-main/
 │
 ├── counter/                  # Contains app logic for managing calorie counts
@@ -19,31 +21,30 @@ Foodie-calorie-finder-main/
 ├── manage.py                 # Django project management script
 ├── README.md                 # Project documentation
 └── .gitattributes            # Git configuration file
-Requirements
-Python 3.x
-Django 3.x
-SQLite (included by default with Django)
-Setup Instructions
-Clone the repository:
 
-bash
-Copy code
-git clone <repository-url>
-cd Foodie-calorie-finder-main
+## Requirements
+
+- Python 3.x
+- Django 3.x
+- SQLite (included by default with Django)
+  
+## Setup Instructions
+
+1. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
+   cd Foodie-calorie-finder-main
 Install the required dependencies:
 
-bash
-Copy code
+
 pip install -r requirements.txt
 Run database migrations:
 
-bash
-Copy code
+
 python manage.py migrate
 Run the development server:
 
-bash
-Copy code
+
 python manage.py runserver
 Open the app in a browser: Visit http://127.0.0.1:8000/ to access the app.
 
