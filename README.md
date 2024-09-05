@@ -1,5 +1,5 @@
-Foodie Calorie Finder
-This project, Foodie Calorie Finder, is a web-based application that allows users to find the calorie content of various foods.
+
+This project, Calorie Finder, is a web-based application that allows users to find the calorie content of various foods.
 
 Features
 Search for food items to retrieve their calorie content.
